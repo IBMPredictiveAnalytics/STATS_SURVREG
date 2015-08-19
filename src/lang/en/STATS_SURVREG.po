@@ -1,0 +1,285 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+msgid ""
+msgstr ""
+
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_SURVREG.R:126
+#: STATS_SURVREG.R:235
+#: STATS_SURVREG.R:288
+msgid "Survival Regression"
+msgstr ""
+
+#: STATS_SURVREG.R:127
+msgid "Survival Regression: Warnings"
+msgstr ""
+
+#: STATS_SURVREG.R:132
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+
+#: STATS_SURVREG.R:136
+msgid "Two time variables are required for interval censoring"
+msgstr ""
+
+#: STATS_SURVREG.R:139
+msgid "The t distribution requires a degrees of freedom parameter"
+msgstr ""
+
+#: STATS_SURVREG.R:146
+msgid "An output dataset was specified without any residual or prediction specifications"
+msgstr ""
+
+#: STATS_SURVREG.R:150
+msgid "Prediction quantile was specified without any quantile values"
+msgstr ""
+
+#: STATS_SURVREG.R:154
+msgid "Residuals or predicted values were specified but no dataset name was given"
+msgstr ""
+
+#: STATS_SURVREG.R:171
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+
+#: STATS_SURVREG.R:176
+msgid "The same variable cannot appear in both the independents and strata lists"
+msgstr ""
+
+#: STATS_SURVREG.R:184
+msgid "The event and time variables must have a scale measurement level"
+msgstr ""
+
+#: STATS_SURVREG.R:188
+msgid "Strata variables must be categorical: %s"
+msgstr ""
+
+#: STATS_SURVREG.R:237
+msgid "Event Variable"
+msgstr ""
+
+#: STATS_SURVREG.R:238
+msgid "Censoring Type"
+msgstr ""
+
+#: STATS_SURVREG.R:239
+msgid "Time"
+msgstr ""
+
+#: STATS_SURVREG.R:240
+msgid "Time2"
+msgstr ""
+
+#: STATS_SURVREG.R:241
+msgid "Distribution"
+msgstr ""
+
+#: STATS_SURVREG.R:242
+msgid "Robust Estimation"
+msgstr ""
+
+#: STATS_SURVREG.R:243
+msgid "Output Dataset"
+msgstr ""
+
+#: STATS_SURVREG.R:244
+msgid "Missing Values Treatment"
+msgstr ""
+
+#: STATS_SURVREG.R:245
+msgid "N"
+msgstr ""
+
+#: STATS_SURVREG.R:246
+msgid "Number of Iterations"
+msgstr ""
+
+#: STATS_SURVREG.R:247
+msgid "Scale"
+msgstr ""
+
+#: STATS_SURVREG.R:248
+msgid "Log Likelihood (Model)"
+msgstr ""
+
+#: STATS_SURVREG.R:249
+msgid "Log Likelihood (Intercept Only)"
+msgstr ""
+
+#: STATS_SURVREG.R:250
+msgid "Chi-Squared"
+msgstr ""
+
+#: STATS_SURVREG.R:251
+msgid "D.F."
+msgstr ""
+
+#: STATS_SURVREG.R:252
+msgid "P Value"
+msgstr ""
+
+#: STATS_SURVREG.R:258
+#: STATS_SURVREG.R:261
+msgid "--None--"
+msgstr ""
+
+#: STATS_SURVREG.R:259
+msgid "%s(%s)"
+msgstr ""
+
+#: STATS_SURVREG.R:260
+msgid "Yes"
+msgstr ""
+
+#: STATS_SURVREG.R:260
+msgid "No"
+msgstr ""
+
+#: STATS_SURVREG.R:265
+msgid "Fixed at %s"
+msgstr ""
+
+#: STATS_SURVREG.R:274
+msgid "Values"
+msgstr ""
+
+#: STATS_SURVREG.R:275
+msgid "Survival Regression Summary"
+msgstr ""
+
+#: STATS_SURVREG.R:277
+msgid "Results computed by R survival package function survreg"
+msgstr ""
+
+#: STATS_SURVREG.R:283
+msgid "Value"
+msgstr ""
+
+#: STATS_SURVREG.R:283
+msgid "Std. Error"
+msgstr ""
+
+#: STATS_SURVREG.R:283
+msgid "Z"
+msgstr ""
+
+#: STATS_SURVREG.R:283
+msgid "P"
+msgstr ""
+
+#: STATS_SURVREG.R:284
+msgid "Event variable: %s"
+msgstr ""
+
+#: STATS_SURVREG.R:286
+msgid "%s.  Strata variables: %s"
+msgstr ""
+
+#: STATS_SURVREG.R:308
+msgid "Survival"
+msgstr ""
+
+#: STATS_SURVREG.R:314
+msgid "Survival Values (First %s Cases)"
+msgstr ""
+
+#: STATS_SURVREG.R:320
+msgid "Residuals - Response"
+msgstr ""
+
+#: STATS_SURVREG.R:321
+msgid "Residuals - Deviance"
+msgstr ""
+
+#: STATS_SURVREG.R:322
+msgid "Residuals - Working"
+msgstr ""
+
+#: STATS_SURVREG.R:323
+msgid "Residuals - Ldcase"
+msgstr ""
+
+#: STATS_SURVREG.R:324
+msgid "Residuals - Ldresponse"
+msgstr ""
+
+#: STATS_SURVREG.R:325
+msgid "Residuals - Ldshape"
+msgstr ""
+
+#: STATS_SURVREG.R:326
+msgid "Dfbeta"
+msgstr ""
+
+#: STATS_SURVREG.R:327
+msgid "Stdized Dfbeta"
+msgstr ""
+
+#: STATS_SURVREG.R:328
+msgid "Predicted - Response"
+msgstr ""
+
+#: STATS_SURVREG.R:329
+msgid "Predicted - Linear"
+msgstr ""
+
+#: STATS_SURVREG.R:330
+msgid "Predicted - Quantile"
+msgstr ""
+
+#: STATS_SURVREG.R:331
+msgid "Predicted - Uquantile"
+msgstr ""
+
+#: STATS_SURVREG.R:351
+msgid "Residual statistic %s not available for this model"
+msgstr ""
+
+#: STATS_SURVREG.R:371
+msgid "Log(scale)"
+msgstr ""
+
+#: STATS_SURVREG.R:384
+#: STATS_SURVREG.R:400
+msgid "Prediction statistic %s not available for this model"
+msgstr ""
+
+#: STATS_SURVREG.R:410
+msgid "quantile"
+msgstr ""
+
+#: STATS_SURVREG.R:410
+msgid "uquantile"
+msgstr ""
+
+#: STATS_SURVREG.R:422
+msgid "No casewise results could be computed"
+msgstr ""
+
+#: STATS_SURVREG.R:431
+msgid "Failed to create caseresults dataset."
+msgstr ""
+
+#: STATS_SURVREG.R:463
+msgid "End of procedure"
+msgstr ""
+
+#: STATS_SURVREG.R:490
+msgid "Message Number"
+msgstr ""
+
+
