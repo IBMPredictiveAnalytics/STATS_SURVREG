@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS SURVREG Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS SURVREG Extension Command</h1>
+<p>Estimate parametric survival regression models for a variety of distributions and censoring types</p>
+<div class="syntax">
+<p>STATS SURVREG CENSORTYPE = LEFT or RIGHT<sup>&#42;&#42;</sup> or INTERVAL or COUNTING<br/>
+EVENT=<em>event variable</em><sup>&#42;</sup><br/>
+TIME1 = <em>censor time variable</em><sup>&#42;</sup><br/>
+TIME2 = <em>second censor time variable for interval censoring</em><br/>
+INDEP = <em>independent variables</em><sup>&#42;</sup>
+STRATA = <em>stratification variables</em></p>
+
+<p>/OPTIONS DISTRIBUTION = WEIBULL<sup>&#42;&#42;</sup> or EXPONENTIAL or GAUSSIAN or 
+LOGISTIC or LOGNORMAL or LOGLOGISTIC or T<br/>
+DISTPARAM (t distribution only)<br/>
+SCALE = <em>fixed scale value</em><br/>
+ROBUST = YES or NO<sup>&#42;&#42;</sup><br/>
+MISSING = LISTWISE<sup>&#42;&#42;</sup> or INCLUDE or FAIL<br/>
+MAXITER=<em>number</em> PCONVERGE=<em>relative tolerance</em> SINGULAR = <em>number</em></p>
+
+<p>/OUTPUT SURVSPECS = YES or NO<sup>&#42;&#42;</sup></p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS SURVREG /HELP.  prints this information and does nothing else.</p>
+
+
+<pre class="example"><code>stats survreg censortype=right event=event time1=time
+  indep = age quant
+  /options distribution = gaussian
+  /save caseresults=residuals residuals=dfbeta
+  /output survspecs=yes.
+</code></pre>
+
+<p><strong>CENSORTYPE</strong> specifies the type of censoring.  Interval censoring
+  requires both time variables.</p>
+
+<p><strong>EVENT</strong> specifies the event variable.  The values are interpreted as</p>
+
+<ul>
+<li>0 = no event (alive) </li>
+<li>1 = event occurred (dead).<br/></li>
+</ul>
+
+<p>For interval censoring, the values are </p>
+
+<ul>
+<li>0 = right censored</li>
+<li>1 = event at time</li>
+<li>2 = left censored </li>
+<li>3 = interval censored</li>
+</ul>
+
+<p><strong>TIME1</strong>  For right-censored data, the values are the follow up (endpoint) time.
+  For interval censoring, the values are the interval start times.  </p>
+
+<p><strong>TIME2</strong> This is only used with interval or counting process censoring.</p>
+
+<p><strong>INDEP</strong> specifies the independent variables.  Variables with a
+  categorical measurement level - nominal or ordinal, will be automatically 
+  converted to factors.</p>
+
+<p><strong>STRATA</strong> specifies stratification variables.  The same variable
+cannot appear in both the independents and strata fields.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>DISTRIBUTION</strong> specifies the distribution of the dependent variable.
+Some distributions may be incompatible with the data, for example
+distributions with implied log transformations vs zeros</p>
+
+<p><strong>DISTPARAM</strong> is only used for the t distribution and must be &gt;= 3.</p>
+
+<p><strong>SCALE</strong> specifies a fixed scale value - any positive number or
+a zero value to indicate that it should be estimated.
+Fixed values cannot be used with multiple strata.</p>
+
+<p><strong>ROBUST</strong> indicates whether or not to compute robust, &ldquo;sandwich&rdquo;
+standard errors.  ROBUST is not available in some versions
+of the survival package due to an error in that package and
+will be ignored with a warning in this case.</p>
+
+<p><strong>MISSING</strong> indicates the missing value treatment.  Cases with user missing
+values can be excluded (LISTWISE), included as valid (INCLUDE), or
+the procedure can be stopped if any user missing are encountered (FAIL).
+System missing values always cause the case to be omitted.
+Missing values in the event or time variables are not allowed regardless
+of this setting.</p>
+
+<p><strong>MAXITER</strong>, <strong>PCONVERGE</strong>, and <strong>SINGULAR</strong> specifications control the estimation
+    process.  PCONVERGE is the relative tolerance (change) below which
+    convergence is determined.</p>
+
+<h2>OUTPUT</h2>
+
+<p><strong>SURVSPECS</strong> determines whether or not to print the interpretation of the
+survival specifications for the first 50 cases.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
