@@ -1,0 +1,350 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+msgid ""
+msgstr ""
+
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_SURVREG.R:126
+#: STATS_SURVREG.R:235
+#: STATS_SURVREG.R:288
+msgid "Survival Regression"
+msgstr ""
+"Regresja analizy przeżycia"
+
+#: STATS_SURVREG.R:127
+msgid "Survival Regression: Warnings"
+msgstr ""
+"Regresja analizy przeżycia: Ostrzeżenia"
+
+#: STATS_SURVREG.R:132
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Pakiet R %s jest wymagany, ale nie można było go wczytać."
+
+#: STATS_SURVREG.R:136
+msgid "Two time variables are required for interval censoring"
+msgstr ""
+"Cenzurowanie przedziałowe wymaga dwu zmiennych czasu"
+
+#: STATS_SURVREG.R:139
+msgid "The t distribution requires a degrees of freedom parameter"
+msgstr ""
+"Rozkład t wymaga parametru liczby stopni swobody"
+
+#: STATS_SURVREG.R:146
+msgid "An output dataset was specified without any residual or prediction specifications"
+msgstr ""
+"Wynikowy zbiór danych został określony bez jakichkolwiek reszt lub specyfikacji predykcji"
+
+#: STATS_SURVREG.R:150
+msgid "Prediction quantile was specified without any quantile values"
+msgstr ""
+"Podano kwantyl predykcji bez jakichkolwiek wartości kwantyli"
+
+#: STATS_SURVREG.R:154
+msgid "Residuals or predicted values were specified but no dataset name was given"
+msgstr ""
+"Reszty lub wartości przewidywane zostały podane, lecz nie podano nazwy zbioru danych"
+
+#: STATS_SURVREG.R:171
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"Co najmniej jedna określona nazwa zbioru danych jest już używana"
+
+#: STATS_SURVREG.R:176
+msgid "The same variable cannot appear in both the independents and strata lists"
+msgstr ""
+"Ta sama zmienna nie może pojawiać się jednocześnie na listach niezależnych i na listach warstw."
+
+#: STATS_SURVREG.R:184
+msgid "The event and time variables must have a scale measurement level"
+msgstr ""
+"Zmienne zdarzenia i czasu muszą charakteryzować się poziomem pomiaru skali"
+
+#: STATS_SURVREG.R:188
+msgid "Strata variables must be categorical: %s"
+msgstr ""
+"Zmienne warstw muszą być jakościowe: %s"
+
+#: STATS_SURVREG.R:237
+msgid "Event Variable"
+msgstr ""
+"Zmienna zdarzenia"
+
+#: STATS_SURVREG.R:238
+msgid "Censoring Type"
+msgstr ""
+"Typ cenzurowania"
+
+#: STATS_SURVREG.R:239
+msgid "Time"
+msgstr ""
+"Czas"
+
+#: STATS_SURVREG.R:240
+msgid "Time2"
+msgstr ""
+"Czas2"
+
+#: STATS_SURVREG.R:241
+msgid "Distribution"
+msgstr ""
+"Rozkład"
+
+#: STATS_SURVREG.R:242
+msgid "Robust Estimation"
+msgstr ""
+"Mocne oszacowanie"
+
+#: STATS_SURVREG.R:243
+msgid "Output Dataset"
+msgstr ""
+"Wyjściowy zbiór danych"
+
+#: STATS_SURVREG.R:244
+msgid "Missing Values Treatment"
+msgstr ""
+"Traktowanie braków danych"
+
+#: STATS_SURVREG.R:245
+msgid "N"
+msgstr ""
+"N"
+
+#: STATS_SURVREG.R:246
+msgid "Number of Iterations"
+msgstr ""
+"Liczba iteracji"
+
+#: STATS_SURVREG.R:247
+msgid "Scale"
+msgstr ""
+"Skalowanie"
+
+#: STATS_SURVREG.R:248
+msgid "Log Likelihood (Model)"
+msgstr ""
+"Logarytm wiarygodności (model)"
+
+#: STATS_SURVREG.R:249
+msgid "Log Likelihood (Intercept Only)"
+msgstr ""
+"Logarytm wiarygodności (tylko wyraz wolny)"
+
+#: STATS_SURVREG.R:250
+msgid "Chi-Squared"
+msgstr ""
+"Chi-kwadrat"
+
+#: STATS_SURVREG.R:251
+msgid "D.F."
+msgstr ""
+"df"
+
+#: STATS_SURVREG.R:252
+msgid "P Value"
+msgstr ""
+"Wartość P"
+
+#: STATS_SURVREG.R:258
+#: STATS_SURVREG.R:261
+msgid "--None--"
+msgstr ""
+"--Brak--"
+
+#: STATS_SURVREG.R:259
+msgid "%s(%s)"
+msgstr ""
+"%s(%s)"
+
+#: STATS_SURVREG.R:260
+msgid "Yes"
+msgstr ""
+"Tak"
+
+#: STATS_SURVREG.R:260
+msgid "No"
+msgstr ""
+"Nie"
+
+#: STATS_SURVREG.R:265
+msgid "Fixed at %s"
+msgstr ""
+"Ustalony na poziomie %s"
+
+#: STATS_SURVREG.R:274
+msgid "Values"
+msgstr ""
+"Wartości"
+
+#: STATS_SURVREG.R:275
+msgid "Survival Regression Summary"
+msgstr ""
+"Podsumowanie regresji analizy przeżycia"
+
+#: STATS_SURVREG.R:277
+msgid "Results computed by R survival package function survreg"
+msgstr ""
+"Wyniki obliczone za pośrednictwem funkcji przeżycia survreg pakietu R"
+
+#: STATS_SURVREG.R:283
+msgid "Value"
+msgstr ""
+"Wartość"
+
+#: STATS_SURVREG.R:283
+msgid "Std. Error"
+msgstr ""
+"Błąd standardowy"
+
+#: STATS_SURVREG.R:283
+msgid "Z"
+msgstr ""
+"Z"
+
+#: STATS_SURVREG.R:283
+msgid "P"
+msgstr ""
+"Z"
+
+#: STATS_SURVREG.R:284
+msgid "Event variable: %s"
+msgstr ""
+"Zmienna zdarzenia: %s"
+
+#: STATS_SURVREG.R:286
+msgid "%s.  Strata variables: %s"
+msgstr ""
+"%s.  Zmienne warstw: %s"
+
+#: STATS_SURVREG.R:308
+msgid "Survival"
+msgstr ""
+"Przeżycie"
+
+#: STATS_SURVREG.R:314
+msgid "Survival Values (First %s Cases)"
+msgstr ""
+"Wartości przeżycia (pierwsze obserwacje w liczbie %s)"
+
+#: STATS_SURVREG.R:320
+msgid "Residuals - Response"
+msgstr ""
+"Reszty - Odpowiedź"
+
+#: STATS_SURVREG.R:321
+msgid "Residuals - Deviance"
+msgstr ""
+"Reszty - Odchylenie"
+
+#: STATS_SURVREG.R:322
+msgid "Residuals - Working"
+msgstr ""
+"Reszty - Robocza"
+
+#: STATS_SURVREG.R:323
+msgid "Residuals - Ldcase"
+msgstr ""
+"Reszty - Ldcase"
+
+#: STATS_SURVREG.R:324
+msgid "Residuals - Ldresponse"
+msgstr ""
+"Reszty - Ldresponse"
+
+#: STATS_SURVREG.R:325
+msgid "Residuals - Ldshape"
+msgstr ""
+"Reszty - Ldshape"
+
+#: STATS_SURVREG.R:326
+msgid "Dfbeta"
+msgstr ""
+"Dfbeta"
+
+#: STATS_SURVREG.R:327
+msgid "Stdized Dfbeta"
+msgstr ""
+"Standaryzowana Dfbeta"
+
+#: STATS_SURVREG.R:328
+msgid "Predicted - Response"
+msgstr ""
+"Przewidywana - Odpowiedź"
+
+#: STATS_SURVREG.R:329
+msgid "Predicted - Linear"
+msgstr ""
+"Przewidywana - Liniowa"
+
+#: STATS_SURVREG.R:330
+msgid "Predicted - Quantile"
+msgstr ""
+"Przewidywana - Kwantyl"
+
+#: STATS_SURVREG.R:331
+msgid "Predicted - Uquantile"
+msgstr ""
+"Przewidywana - Kwantyl U"
+
+#: STATS_SURVREG.R:351
+msgid "Residual statistic %s not available for this model"
+msgstr ""
+"Statystyka reszt %s jest niedostępna dla tego modelu"
+
+#: STATS_SURVREG.R:371
+msgid "Log(scale)"
+msgstr ""
+"Log (skala)"
+
+#: STATS_SURVREG.R:384
+#: STATS_SURVREG.R:400
+msgid "Prediction statistic %s not available for this model"
+msgstr ""
+"Statystyka predykcyjna %s jest niedostępna dla tego modelu"
+
+#: STATS_SURVREG.R:410
+msgid "quantile"
+msgstr ""
+"kwantyl"
+
+#: STATS_SURVREG.R:410
+msgid "uquantile"
+msgstr ""
+"kwantyl u"
+
+#: STATS_SURVREG.R:422
+msgid "No casewise results could be computed"
+msgstr ""
+"Nie można obliczyć wyników dla całości obserwacji"
+
+#: STATS_SURVREG.R:431
+msgid "Failed to create caseresults dataset."
+msgstr ""
+"Utworzenie zbioru danych caseresults nie powiodło się."
+
+#: STATS_SURVREG.R:463
+msgid "End of procedure"
+msgstr ""
+"Koniec procedury"
+
+#: STATS_SURVREG.R:490
+msgid "Message Number"
+msgstr ""
+"Numer komunikatu"
+
+
