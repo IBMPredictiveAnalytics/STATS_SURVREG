@@ -1,0 +1,350 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+msgid ""
+msgstr ""
+
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_SURVREG.R:126
+#: STATS_SURVREG.R:235
+#: STATS_SURVREG.R:288
+msgid "Survival Regression"
+msgstr ""
+"생존 회귀"
+
+#: STATS_SURVREG.R:127
+msgid "Survival Regression: Warnings"
+msgstr ""
+"생존 회귀: 경고"
+
+#: STATS_SURVREG.R:132
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 패키지가 필요하지만 로드할 수 없습니다."
+
+#: STATS_SURVREG.R:136
+msgid "Two time variables are required for interval censoring"
+msgstr ""
+"구간 중도절단을 위해 두 개의 시간 변수가 필요합니다."
+
+#: STATS_SURVREG.R:139
+msgid "The t distribution requires a degrees of freedom parameter"
+msgstr ""
+"T 분포에는 자유도 모수가 필요합니다."
+
+#: STATS_SURVREG.R:146
+msgid "An output dataset was specified without any residual or prediction specifications"
+msgstr ""
+"지정된 출력 데이터 세트에 잔차 또는 예측 지정이 없습니다."
+
+#: STATS_SURVREG.R:150
+msgid "Prediction quantile was specified without any quantile values"
+msgstr ""
+"지정된 예측 분위수에 분위수 값이 없습니다."
+
+#: STATS_SURVREG.R:154
+msgid "Residuals or predicted values were specified but no dataset name was given"
+msgstr ""
+"잔차 또는 예측값이 지정되었지만 데이터 세트 이름이 지정되지 않았습니다."
+
+#: STATS_SURVREG.R:171
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"지정된 출력 데이터 세트 이름 중 하나 이상이 이미 사용 중입니다."
+
+#: STATS_SURVREG.R:176
+msgid "The same variable cannot appear in both the independents and strata lists"
+msgstr ""
+"독립 목록 및 계층 목록 모두에 동일한 변수가 표시될 수 없습니다."
+
+#: STATS_SURVREG.R:184
+msgid "The event and time variables must have a scale measurement level"
+msgstr ""
+"이벤트 및 시간 변수에 척도 측정 수준이 있어야 합니다."
+
+#: STATS_SURVREG.R:188
+msgid "Strata variables must be categorical: %s"
+msgstr ""
+"계층변수는 범주형이어야 합니다. %s"
+
+#: STATS_SURVREG.R:237
+msgid "Event Variable"
+msgstr ""
+"이벤트변수"
+
+#: STATS_SURVREG.R:238
+msgid "Censoring Type"
+msgstr ""
+"중도절단 유형"
+
+#: STATS_SURVREG.R:239
+msgid "Time"
+msgstr ""
+"시간"
+
+#: STATS_SURVREG.R:240
+msgid "Time2"
+msgstr ""
+"시간2"
+
+#: STATS_SURVREG.R:241
+msgid "Distribution"
+msgstr ""
+"분포"
+
+#: STATS_SURVREG.R:242
+msgid "Robust Estimation"
+msgstr ""
+"로버스트 추정"
+
+#: STATS_SURVREG.R:243
+msgid "Output Dataset"
+msgstr ""
+"출력 데이터 세트"
+
+#: STATS_SURVREG.R:244
+msgid "Missing Values Treatment"
+msgstr ""
+"결측값 처리"
+
+#: STATS_SURVREG.R:245
+msgid "N"
+msgstr ""
+"N"
+
+#: STATS_SURVREG.R:246
+msgid "Number of Iterations"
+msgstr ""
+"반복계산 수"
+
+#: STATS_SURVREG.R:247
+msgid "Scale"
+msgstr ""
+"척도"
+
+#: STATS_SURVREG.R:248
+msgid "Log Likelihood (Model)"
+msgstr ""
+"로그 우도(모형)"
+
+#: STATS_SURVREG.R:249
+msgid "Log Likelihood (Intercept Only)"
+msgstr ""
+"로그 우도(절편 만)"
+
+#: STATS_SURVREG.R:250
+msgid "Chi-Squared"
+msgstr ""
+"카이제곱"
+
+#: STATS_SURVREG.R:251
+msgid "D.F."
+msgstr ""
+"자유도"
+
+#: STATS_SURVREG.R:252
+msgid "P Value"
+msgstr ""
+"P 값"
+
+#: STATS_SURVREG.R:258
+#: STATS_SURVREG.R:261
+msgid "--None--"
+msgstr ""
+"--없음--"
+
+#: STATS_SURVREG.R:259
+msgid "%s(%s)"
+msgstr ""
+"%s(%s)"
+
+#: STATS_SURVREG.R:260
+msgid "Yes"
+msgstr ""
+"예"
+
+#: STATS_SURVREG.R:260
+msgid "No"
+msgstr ""
+"아니오"
+
+#: STATS_SURVREG.R:265
+msgid "Fixed at %s"
+msgstr ""
+"%s에서 고정"
+
+#: STATS_SURVREG.R:274
+msgid "Values"
+msgstr ""
+"값"
+
+#: STATS_SURVREG.R:275
+msgid "Survival Regression Summary"
+msgstr ""
+"생존 회귀 요약"
+
+#: STATS_SURVREG.R:277
+msgid "Results computed by R survival package function survreg"
+msgstr ""
+"R 생존 패키지 함수 survreg에 의해 계산된 결과"
+
+#: STATS_SURVREG.R:283
+msgid "Value"
+msgstr ""
+"변수값"
+
+#: STATS_SURVREG.R:283
+msgid "Std. Error"
+msgstr ""
+"표준오차"
+
+#: STATS_SURVREG.R:283
+msgid "Z"
+msgstr ""
+"Z"
+
+#: STATS_SURVREG.R:283
+msgid "P"
+msgstr ""
+"P"
+
+#: STATS_SURVREG.R:284
+msgid "Event variable: %s"
+msgstr ""
+"이벤트변수: %s"
+
+#: STATS_SURVREG.R:286
+msgid "%s.  Strata variables: %s"
+msgstr ""
+"%s. 계층변수: %s"
+
+#: STATS_SURVREG.R:308
+msgid "Survival"
+msgstr ""
+"생존"
+
+#: STATS_SURVREG.R:314
+msgid "Survival Values (First %s Cases)"
+msgstr ""
+"생존 값(첫 번째 %s개 케이스)"
+
+#: STATS_SURVREG.R:320
+msgid "Residuals - Response"
+msgstr ""
+"잔차 - 반응"
+
+#: STATS_SURVREG.R:321
+msgid "Residuals - Deviance"
+msgstr ""
+"잔차 - 편차"
+
+#: STATS_SURVREG.R:322
+msgid "Residuals - Working"
+msgstr ""
+"잔차 - 작업"
+
+#: STATS_SURVREG.R:323
+msgid "Residuals - Ldcase"
+msgstr ""
+"잔차 - Ldcase"
+
+#: STATS_SURVREG.R:324
+msgid "Residuals - Ldresponse"
+msgstr ""
+"잔차 - Ldresponse"
+
+#: STATS_SURVREG.R:325
+msgid "Residuals - Ldshape"
+msgstr ""
+"잔차 - Ldshape"
+
+#: STATS_SURVREG.R:326
+msgid "Dfbeta"
+msgstr ""
+"DFBETA"
+
+#: STATS_SURVREG.R:327
+msgid "Stdized Dfbeta"
+msgstr ""
+"요인 DFBETA"
+
+#: STATS_SURVREG.R:328
+msgid "Predicted - Response"
+msgstr ""
+"예측 - 반응"
+
+#: STATS_SURVREG.R:329
+msgid "Predicted - Linear"
+msgstr ""
+"예측 - 선형"
+
+#: STATS_SURVREG.R:330
+msgid "Predicted - Quantile"
+msgstr ""
+"예측 - 분위수"
+
+#: STATS_SURVREG.R:331
+msgid "Predicted - Uquantile"
+msgstr ""
+"예측 - U분위수"
+
+#: STATS_SURVREG.R:351
+msgid "Residual statistic %s not available for this model"
+msgstr ""
+"이 모형에서는 잔차 통계량 %s을(를) 사용할 수 없습니다."
+
+#: STATS_SURVREG.R:371
+msgid "Log(scale)"
+msgstr ""
+"로그(척도)"
+
+#: STATS_SURVREG.R:384
+#: STATS_SURVREG.R:400
+msgid "Prediction statistic %s not available for this model"
+msgstr ""
+"이 모형에서는 예측 통계량 %s을(를) 사용할 수 없습니다."
+
+#: STATS_SURVREG.R:410
+msgid "quantile"
+msgstr ""
+"분위수"
+
+#: STATS_SURVREG.R:410
+msgid "uquantile"
+msgstr ""
+"U분위수"
+
+#: STATS_SURVREG.R:422
+msgid "No casewise results could be computed"
+msgstr ""
+"각 케이스에 대한 결과를 계산할 수 없습니다."
+
+#: STATS_SURVREG.R:431
+msgid "Failed to create caseresults dataset."
+msgstr ""
+"각 케이스에 대한 결과 데이터 세트를 작성하지 못했습니다."
+
+#: STATS_SURVREG.R:463
+msgid "End of procedure"
+msgstr ""
+"프로시저 끝"
+
+#: STATS_SURVREG.R:490
+msgid "Message Number"
+msgstr ""
+"메시지 번호"
+
+
