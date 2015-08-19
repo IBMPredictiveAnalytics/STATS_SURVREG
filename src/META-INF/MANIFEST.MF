@@ -1,0 +1,19 @@
+Name: STATS SURVREG
+Dialog-Specs: STATS_SURVREG.spd
+Command-Specs: STATS_SURVREG.xml
+Code-Files: STATS_SURVREG.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Parametric Survival Regression
+Description: This procedure calculates survival regressions for left, 
+ right, interval, or counting censoring and for Weibull, exponential, 
+ gaussian, logistic, and other distributions.  Residuals and predicted
+  values of various types can be saved as datasets.  The package can d
+ o Tobit regression as a special case.
+Author: JKP, IBM SPSS
+Version: 1.0.4
+Product-Version: 18
+Date: 5/2013
+Categories: survival spss extension r weibull
+Plugins: R
+R-Packages: survival
+Translation-Catalogues: lang
