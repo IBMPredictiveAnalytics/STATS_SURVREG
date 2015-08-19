@@ -1,0 +1,350 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+msgid ""
+msgstr ""
+
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_SURVREG.R:126
+#: STATS_SURVREG.R:235
+#: STATS_SURVREG.R:288
+msgid "Survival Regression"
+msgstr ""
+"存活迴歸"
+
+#: STATS_SURVREG.R:127
+msgid "Survival Regression: Warnings"
+msgstr ""
+"存活迴歸：警告"
+
+#: STATS_SURVREG.R:132
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 套件是必要套件，但無法載入。"
+
+#: STATS_SURVREG.R:136
+msgid "Two time variables are required for interval censoring"
+msgstr ""
+"區間設限需要兩個時間變數"
+
+#: STATS_SURVREG.R:139
+msgid "The t distribution requires a degrees of freedom parameter"
+msgstr ""
+"t 分佈需要自由度參數"
+
+#: STATS_SURVREG.R:146
+msgid "An output dataset was specified without any residual or prediction specifications"
+msgstr ""
+"在沒有任何殘差或預測規格的情況下指定了輸出資料集"
+
+#: STATS_SURVREG.R:150
+msgid "Prediction quantile was specified without any quantile values"
+msgstr ""
+"在沒有任何分位數值的情況下指定了預測分位數"
+
+#: STATS_SURVREG.R:154
+msgid "Residuals or predicted values were specified but no dataset name was given"
+msgstr ""
+"指定了殘差或預測值，但未提供資料集名稱"
+
+#: STATS_SURVREG.R:171
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"一個以上指定的輸出資料集名稱已在使用中"
+
+#: STATS_SURVREG.R:176
+msgid "The same variable cannot appear in both the independents and strata lists"
+msgstr ""
+"相同的變數無法同時顯示在自變數及階層清單中"
+
+#: STATS_SURVREG.R:184
+msgid "The event and time variables must have a scale measurement level"
+msgstr ""
+"事件及時間變數必須具有尺度測量水準"
+
+#: STATS_SURVREG.R:188
+msgid "Strata variables must be categorical: %s"
+msgstr ""
+"階層變數必須是種類：%s"
+
+#: STATS_SURVREG.R:237
+msgid "Event Variable"
+msgstr ""
+"事件變數"
+
+#: STATS_SURVREG.R:238
+msgid "Censoring Type"
+msgstr ""
+"設限類型"
+
+#: STATS_SURVREG.R:239
+msgid "Time"
+msgstr ""
+"時間"
+
+#: STATS_SURVREG.R:240
+msgid "Time2"
+msgstr ""
+"時間 2"
+
+#: STATS_SURVREG.R:241
+msgid "Distribution"
+msgstr ""
+"分佈"
+
+#: STATS_SURVREG.R:242
+msgid "Robust Estimation"
+msgstr ""
+"穩健估計"
+
+#: STATS_SURVREG.R:243
+msgid "Output Dataset"
+msgstr ""
+"輸出資料集"
+
+#: STATS_SURVREG.R:244
+msgid "Missing Values Treatment"
+msgstr ""
+"遺漏值處理"
+
+#: STATS_SURVREG.R:245
+msgid "N"
+msgstr ""
+"N"
+
+#: STATS_SURVREG.R:246
+msgid "Number of Iterations"
+msgstr ""
+"反覆運算次數"
+
+#: STATS_SURVREG.R:247
+msgid "Scale"
+msgstr ""
+"尺度"
+
+#: STATS_SURVREG.R:248
+msgid "Log Likelihood (Model)"
+msgstr ""
+"對數概似值（模型）"
+
+#: STATS_SURVREG.R:249
+msgid "Log Likelihood (Intercept Only)"
+msgstr ""
+"對數概似值（僅限截距）"
+
+#: STATS_SURVREG.R:250
+msgid "Chi-Squared"
+msgstr ""
+"卡方檢定"
+
+#: STATS_SURVREG.R:251
+msgid "D.F."
+msgstr ""
+"D.F."
+
+#: STATS_SURVREG.R:252
+msgid "P Value"
+msgstr ""
+"P 值"
+
+#: STATS_SURVREG.R:258
+#: STATS_SURVREG.R:261
+msgid "--None--"
+msgstr ""
+"--無--"
+
+#: STATS_SURVREG.R:259
+msgid "%s(%s)"
+msgstr ""
+"%s(%s)"
+
+#: STATS_SURVREG.R:260
+msgid "Yes"
+msgstr ""
+"是"
+
+#: STATS_SURVREG.R:260
+msgid "No"
+msgstr ""
+"否"
+
+#: STATS_SURVREG.R:265
+msgid "Fixed at %s"
+msgstr ""
+"固定為 %s"
+
+#: STATS_SURVREG.R:274
+msgid "Values"
+msgstr ""
+"值"
+
+#: STATS_SURVREG.R:275
+msgid "Survival Regression Summary"
+msgstr ""
+"存活迴歸摘要"
+
+#: STATS_SURVREG.R:277
+msgid "Results computed by R survival package function survreg"
+msgstr ""
+"由 R 存活套件函數 survreg 計算的結果"
+
+#: STATS_SURVREG.R:283
+msgid "Value"
+msgstr ""
+"值"
+
+#: STATS_SURVREG.R:283
+msgid "Std. Error"
+msgstr ""
+"標準誤"
+
+#: STATS_SURVREG.R:283
+msgid "Z"
+msgstr ""
+"Z"
+
+#: STATS_SURVREG.R:283
+msgid "P"
+msgstr ""
+"P"
+
+#: STATS_SURVREG.R:284
+msgid "Event variable: %s"
+msgstr ""
+"事件變數：%s"
+
+#: STATS_SURVREG.R:286
+msgid "%s.  Strata variables: %s"
+msgstr ""
+"%s。階層變數：%s"
+
+#: STATS_SURVREG.R:308
+msgid "Survival"
+msgstr ""
+"存活"
+
+#: STATS_SURVREG.R:314
+msgid "Survival Values (First %s Cases)"
+msgstr ""
+"存活值（前 %s 個觀察值）"
+
+#: STATS_SURVREG.R:320
+msgid "Residuals - Response"
+msgstr ""
+"殘差 - 回應"
+
+#: STATS_SURVREG.R:321
+msgid "Residuals - Deviance"
+msgstr ""
+"殘差 - 偏差"
+
+#: STATS_SURVREG.R:322
+msgid "Residuals - Working"
+msgstr ""
+"殘差 - 工作中"
+
+#: STATS_SURVREG.R:323
+msgid "Residuals - Ldcase"
+msgstr ""
+"殘差 - Ldcase"
+
+#: STATS_SURVREG.R:324
+msgid "Residuals - Ldresponse"
+msgstr ""
+"殘差 - Ldresponse"
+
+#: STATS_SURVREG.R:325
+msgid "Residuals - Ldshape"
+msgstr ""
+"殘差 - Ldshape"
+
+#: STATS_SURVREG.R:326
+msgid "Dfbeta"
+msgstr ""
+"Dfbeta"
+
+#: STATS_SURVREG.R:327
+msgid "Stdized Dfbeta"
+msgstr ""
+"Stdized Dfbeta"
+
+#: STATS_SURVREG.R:328
+msgid "Predicted - Response"
+msgstr ""
+"已預測 - 回應"
+
+#: STATS_SURVREG.R:329
+msgid "Predicted - Linear"
+msgstr ""
+"已預測 - 線性"
+
+#: STATS_SURVREG.R:330
+msgid "Predicted - Quantile"
+msgstr ""
+"已預測 - 分位數"
+
+#: STATS_SURVREG.R:331
+msgid "Predicted - Uquantile"
+msgstr ""
+"已預測 - Uquantile"
+
+#: STATS_SURVREG.R:351
+msgid "Residual statistic %s not available for this model"
+msgstr ""
+"殘差統計量 %s 不適用於此模型"
+
+#: STATS_SURVREG.R:371
+msgid "Log(scale)"
+msgstr ""
+"對數（尺度）"
+
+#: STATS_SURVREG.R:384
+#: STATS_SURVREG.R:400
+msgid "Prediction statistic %s not available for this model"
+msgstr ""
+"預測統計量 %s 不適用於此模型"
+
+#: STATS_SURVREG.R:410
+msgid "quantile"
+msgstr ""
+"分位數"
+
+#: STATS_SURVREG.R:410
+msgid "uquantile"
+msgstr ""
+"uquantile"
+
+#: STATS_SURVREG.R:422
+msgid "No casewise results could be computed"
+msgstr ""
+"無法計算逐觀察值結果"
+
+#: STATS_SURVREG.R:431
+msgid "Failed to create caseresults dataset."
+msgstr ""
+"無法建立 caseresults 資料集。"
+
+#: STATS_SURVREG.R:463
+msgid "End of procedure"
+msgstr ""
+"程序的結尾"
+
+#: STATS_SURVREG.R:490
+msgid "Message Number"
+msgstr ""
+"訊息號碼"
+
+
