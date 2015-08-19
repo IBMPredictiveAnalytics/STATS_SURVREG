@@ -1,0 +1,350 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+msgid ""
+msgstr ""
+
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_SURVREG.R:126
+#: STATS_SURVREG.R:235
+#: STATS_SURVREG.R:288
+msgid "Survival Regression"
+msgstr ""
+"生存回帰"
+
+#: STATS_SURVREG.R:127
+msgid "Survival Regression: Warnings"
+msgstr ""
+"生存回帰: 警告"
+
+#: STATS_SURVREG.R:132
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s パッケージが必要ですが、読み込むことができませんでした。"
+
+#: STATS_SURVREG.R:136
+msgid "Two time variables are required for interval censoring"
+msgstr ""
+"区間打ち切りには 2 つの時刻変数が必要です"
+
+#: STATS_SURVREG.R:139
+msgid "The t distribution requires a degrees of freedom parameter"
+msgstr ""
+"t 分布には自由度パラメータが必要です"
+
+#: STATS_SURVREG.R:146
+msgid "An output dataset was specified without any residual or prediction specifications"
+msgstr ""
+"残差または予測の指定なしで出力データセットが指定されました"
+
+#: STATS_SURVREG.R:150
+msgid "Prediction quantile was specified without any quantile values"
+msgstr ""
+"分位値なしで予測分位が指定されました"
+
+#: STATS_SURVREG.R:154
+msgid "Residuals or predicted values were specified but no dataset name was given"
+msgstr ""
+"残差または予測値が指定されましたが、データセット名が指定されませんでした"
+
+#: STATS_SURVREG.R:171
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"1 つ以上の指定された出力データセット名がすでに使用されています"
+
+#: STATS_SURVREG.R:176
+msgid "The same variable cannot appear in both the independents and strata lists"
+msgstr ""
+"同じ変数が独立変数リストとストラータ リストの両方に出現することはできません"
+
+#: STATS_SURVREG.R:184
+msgid "The event and time variables must have a scale measurement level"
+msgstr ""
+"イベントおよび時刻変数には、スケール尺度が必要です"
+
+#: STATS_SURVREG.R:188
+msgid "Strata variables must be categorical: %s"
+msgstr ""
+"ストラータ変数はカテゴリ変数である必要があります: %s"
+
+#: STATS_SURVREG.R:237
+msgid "Event Variable"
+msgstr ""
+"イベント変数"
+
+#: STATS_SURVREG.R:238
+msgid "Censoring Type"
+msgstr ""
+"打ち切りタイプ"
+
+#: STATS_SURVREG.R:239
+msgid "Time"
+msgstr ""
+"時間"
+
+#: STATS_SURVREG.R:240
+msgid "Time2"
+msgstr ""
+"時刻 2"
+
+#: STATS_SURVREG.R:241
+msgid "Distribution"
+msgstr ""
+"分布"
+
+#: STATS_SURVREG.R:242
+msgid "Robust Estimation"
+msgstr ""
+"頑健推定"
+
+#: STATS_SURVREG.R:243
+msgid "Output Dataset"
+msgstr ""
+"出力データセット"
+
+#: STATS_SURVREG.R:244
+msgid "Missing Values Treatment"
+msgstr ""
+"欠損値の処理"
+
+#: STATS_SURVREG.R:245
+msgid "N"
+msgstr ""
+"度数"
+
+#: STATS_SURVREG.R:246
+msgid "Number of Iterations"
+msgstr ""
+"反復回数"
+
+#: STATS_SURVREG.R:247
+msgid "Scale"
+msgstr ""
+"スケール"
+
+#: STATS_SURVREG.R:248
+msgid "Log Likelihood (Model)"
+msgstr ""
+"対数尤度 (モデル)"
+
+#: STATS_SURVREG.R:249
+msgid "Log Likelihood (Intercept Only)"
+msgstr ""
+"対数尤度 (切片のみ)"
+
+#: STATS_SURVREG.R:250
+msgid "Chi-Squared"
+msgstr ""
+"カイ 2 乗"
+
+#: STATS_SURVREG.R:251
+msgid "D.F."
+msgstr ""
+"自由度"
+
+#: STATS_SURVREG.R:252
+msgid "P Value"
+msgstr ""
+"P 値"
+
+#: STATS_SURVREG.R:258
+#: STATS_SURVREG.R:261
+msgid "--None--"
+msgstr ""
+"--なし--"
+
+#: STATS_SURVREG.R:259
+msgid "%s(%s)"
+msgstr ""
+"%s(%s)"
+
+#: STATS_SURVREG.R:260
+msgid "Yes"
+msgstr ""
+"はい"
+
+#: STATS_SURVREG.R:260
+msgid "No"
+msgstr ""
+"いいえ"
+
+#: STATS_SURVREG.R:265
+msgid "Fixed at %s"
+msgstr ""
+"%s で固定"
+
+#: STATS_SURVREG.R:274
+msgid "Values"
+msgstr ""
+"値"
+
+#: STATS_SURVREG.R:275
+msgid "Survival Regression Summary"
+msgstr ""
+"生存回帰の要約"
+
+#: STATS_SURVREG.R:277
+msgid "Results computed by R survival package function survreg"
+msgstr ""
+"R 生存パッケージ関数 survreg によって計算された結果"
+
+#: STATS_SURVREG.R:283
+msgid "Value"
+msgstr ""
+"値"
+
+#: STATS_SURVREG.R:283
+msgid "Std. Error"
+msgstr ""
+"標準誤差"
+
+#: STATS_SURVREG.R:283
+msgid "Z"
+msgstr ""
+"Z"
+
+#: STATS_SURVREG.R:283
+msgid "P"
+msgstr ""
+"P"
+
+#: STATS_SURVREG.R:284
+msgid "Event variable: %s"
+msgstr ""
+"イベント変数: %s"
+
+#: STATS_SURVREG.R:286
+msgid "%s.  Strata variables: %s"
+msgstr ""
+"%s。ストラータ変数: %s"
+
+#: STATS_SURVREG.R:308
+msgid "Survival"
+msgstr ""
+"生存"
+
+#: STATS_SURVREG.R:314
+msgid "Survival Values (First %s Cases)"
+msgstr ""
+"生存値 (最初の %s 個のケース)"
+
+#: STATS_SURVREG.R:320
+msgid "Residuals - Response"
+msgstr ""
+"残差 - 回答"
+
+#: STATS_SURVREG.R:321
+msgid "Residuals - Deviance"
+msgstr ""
+"残差 - 逸脱"
+
+#: STATS_SURVREG.R:322
+msgid "Residuals - Working"
+msgstr ""
+"残差 - 作業"
+
+#: STATS_SURVREG.R:323
+msgid "Residuals - Ldcase"
+msgstr ""
+"残差 - Ldcase"
+
+#: STATS_SURVREG.R:324
+msgid "Residuals - Ldresponse"
+msgstr ""
+"残差 - Ldresponse"
+
+#: STATS_SURVREG.R:325
+msgid "Residuals - Ldshape"
+msgstr ""
+"残差 - Ldshape"
+
+#: STATS_SURVREG.R:326
+msgid "Dfbeta"
+msgstr ""
+"Dfbeta"
+
+#: STATS_SURVREG.R:327
+msgid "Stdized Dfbeta"
+msgstr ""
+"標準化された Dfbeta"
+
+#: STATS_SURVREG.R:328
+msgid "Predicted - Response"
+msgstr ""
+"予測 - 回答"
+
+#: STATS_SURVREG.R:329
+msgid "Predicted - Linear"
+msgstr ""
+"予測 - 線型"
+
+#: STATS_SURVREG.R:330
+msgid "Predicted - Quantile"
+msgstr ""
+"予測 - 分位"
+
+#: STATS_SURVREG.R:331
+msgid "Predicted - Uquantile"
+msgstr ""
+"予測 - Uquantile"
+
+#: STATS_SURVREG.R:351
+msgid "Residual statistic %s not available for this model"
+msgstr ""
+"残差の統計量 %s はこのモデルでは使用できません"
+
+#: STATS_SURVREG.R:371
+msgid "Log(scale)"
+msgstr ""
+"対数(尺度)"
+
+#: STATS_SURVREG.R:384
+#: STATS_SURVREG.R:400
+msgid "Prediction statistic %s not available for this model"
+msgstr ""
+"予測の統計量 %s はこのモデルでは使用できません"
+
+#: STATS_SURVREG.R:410
+msgid "quantile"
+msgstr ""
+"分位"
+
+#: STATS_SURVREG.R:410
+msgid "uquantile"
+msgstr ""
+"uquantile"
+
+#: STATS_SURVREG.R:422
+msgid "No casewise results could be computed"
+msgstr ""
+"ケースごとの結果は計算できませんでした"
+
+#: STATS_SURVREG.R:431
+msgid "Failed to create caseresults dataset."
+msgstr ""
+"caseresults データセットを作成できませんでした。"
+
+#: STATS_SURVREG.R:463
+msgid "End of procedure"
+msgstr ""
+"手順の終わり"
+
+#: STATS_SURVREG.R:490
+msgid "Message Number"
+msgstr ""
+"メッセージ番号"
+
+
