@@ -10,7 +10,7 @@ Description: This procedure calculates survival regressions for left,
   values of various types can be saved as datasets.  The package can d
  o Tobit regression as a special case.
 Author: JKP, IBM SPSS
-Version: 1.0.5
+Version: 1.0.6
 Product-Version: 18
 Date: 5/2013
 Categories: survival spss extension r weibull
