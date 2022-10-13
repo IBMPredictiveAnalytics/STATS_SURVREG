@@ -1,4 +1,5 @@
 Name: STATS SURVREG
+Display-Name: Parametric Survival Regression
 Dialog-Specs: STATS_SURVREG.spd
 Command-Specs: STATS_SURVREG.xml
 Code-Files: STATS_SURVREG.R
